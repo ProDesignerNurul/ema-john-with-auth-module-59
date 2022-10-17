@@ -4,6 +4,7 @@
     margin: 50px auto;
     border: 1px solid #95A0A7;
     border-radius: 8px;
+    padding-left: 40px;
 }
 .form-title{
     font-weight: 400;
@@ -12,4 +13,39 @@
     letter-spacing: 0.0025em;
     color: #2A414F;
     text-align: center;
+}
+.form{
+    /* width: 85%; */
+    margin: auto;
+}
+.form-control{
+    
+    margin-bottom: 20px;
+}
+.form-control label{
+    display: block;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 0.0015em;
+    color: #2A414F;
+    margin-bottom: 20px;
+}
+.form-control input{
+    width: 415px;
+    height: 35px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.btn-submit{
+    width: 415px;
+    font-weight: 700;
+    padding: 5px;
+    background-color: bisque;
+    border: .5px solid gray;
+    border-radius: 5px;
+}
+.btn-submit:hover{
+    background-color: rgb(255, 183, 157);
+    cursor: pointer;
 }
